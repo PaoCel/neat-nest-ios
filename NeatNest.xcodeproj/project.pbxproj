@@ -1,0 +1,1430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0238144B41A65F6D332A85EE /* DemoReceiptProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B494316CE3FF58264C6873 /* DemoReceiptProvider.swift */; };
+		044D7E9D26FA79F1B7F6F897 /* SmartGroceryAppIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF16C527402F8D33323A77D3 /* SmartGroceryAppIntents.swift */; };
+		04C11BA82D6358B093853E7D /* SeededRetailerPricingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17738BB4C314B03927613206 /* SeededRetailerPricingProvider.swift */; };
+		0515524769099267B02C6693 /* PantryLevelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53211DE4A0A517B415AE97 /* PantryLevelTests.swift */; };
+		07EC3B2EF587396BE8731C25 /* BudgetHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F52C326788BFB1AAE74AE16 /* BudgetHomeView.swift */; };
+		081D45B8B70830D6BDB7F76A /* CurrencyFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E76C8ED782A1608CE40C99 /* CurrencyFormat.swift */; };
+		08227E541EB5CB5452B6487C /* GroceryExpenseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637CF176B9515565740F8190 /* GroceryExpenseRepository.swift */; };
+		08A268458EA20A77FB132F6D /* PantryItemEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613F4B9E0E6E5B1F1606653 /* PantryItemEditorView.swift */; };
+		09154517BE68C43C8E4EDF54 /* PantryImportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603060F7C9E25AD5D603D29D /* PantryImportViewModel.swift */; };
+		09A878263FE57F77E18AABE7 /* LetsShopService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75F3C13A82E058A567B62DE /* LetsShopService.swift */; };
+		0A6EBBBBF91F2B7051F0B289 /* RecipeCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF17ACC5CBFEACF538DD2E8 /* RecipeCatalogTests.swift */; };
+		0DCDE719D7EFA4E1EAC1B6D1 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = DF6F70CCA5793DB2A1584C1F /* FirebaseCore */; };
+		0E0FA37F49BFC08FB374E436 /* SmartGroceryComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF7B1ED7110C1D5D668B5C /* SmartGroceryComponents.swift */; };
+		106B31BE2D2C3A2E86BCCD63 /* RecipeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5D43F24F3A3692ECF49F5A /* RecipeRepository.swift */; };
+		1166323FBEBA589BC9C02D1B /* LetsShopPreferenceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D2133C78C272E5E0208ADA /* LetsShopPreferenceViewModel.swift */; };
+		17C648BF0CF6888B98522ED3 /* GroceryListsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDC4F3ECCDA44965702E4C6 /* GroceryListsViewModel.swift */; };
+		1DDA875012F43FDD6736322F /* GroceryPhraseParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7B398DA00B323CAC02636D /* GroceryPhraseParserTests.swift */; };
+		1E5363C7E7A6D559154845AE /* AddTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43099A751A3E888BB9BBDD0 /* AddTaskViewModel.swift */; };
+		1ECDDDAE470F526E5911CE12 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 18CA7EF84C03D90A53E1364C /* Localizable.xcstrings */; };
+		209A725034EDC2D3FC7C8FBE /* PantryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F14796266068147832B4ADE /* PantryItem.swift */; };
+		21F63A995AE65ACEE75EEA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 596415EF8622E0BC9D899832 /* Assets.xcassets */; };
+		23C85F0052835A814D28796B /* MoneyEntryEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC348A28A504A5306ADF00AD /* MoneyEntryEditorView.swift */; };
+		241A8E930EBEF34935256FE8 /* StoreMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CED3965AFBD401D84D6BEBC /* StoreMapView.swift */; };
+		24887BCAF8368440C11A4038 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 89AC29F8AB90F5C352497E6F /* GoogleSignIn */; };
+		25AC2BF3F987FC37B95C6DED /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF4EFA37AB2351ED3144087 /* RegistrationView.swift */; };
+		27DF6A0389B0029F60AF4386 /* RepurchasePredictorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BD2AAE1C89023D8616DDC /* RepurchasePredictorTests.swift */; };
+		28F45964F0711E798372D316 /* RetailerPricingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CA588581E70C14B4ED870D /* RetailerPricingProvider.swift */; };
+		291D76C63C1256095CD08281 /* StoreProximityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4974B04E7B59EB3D8CDC20FE /* StoreProximityMonitor.swift */; };
+		2A1D75504650799A73B8ECE0 /* UserOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C791ED8CD5B27029C9DED2 /* UserOverviewView.swift */; };
+		2A78B5B81DEB0F881E2418DE /* GroceryListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC74D90F23337B8C7856B149 /* GroceryListDetailView.swift */; };
+		2CA8A00131FE8B63AE3F3A6A /* ReceiptTriageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD4B2B656FB3D2C47ABF0C1 /* ReceiptTriageTests.swift */; };
+		2EEF8A6AF7172FE230937662 /* PantryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FF68269825C8746E20F11C /* PantryService.swift */; };
+		30C9032D58A2D07AD2D7ADBA /* GroceryCatalogMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6304DDE28BEDF0E3D61106AD /* GroceryCatalogMatcher.swift */; };
+		3135F3BE2B058EA1E2C4ECA7 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5673C4D6F1A018B893AC33 /* Color+Hex.swift */; };
+		31EAFF39BFF3A3B8FD7D941C /* ReceiptScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B464339DF0B5E1CB61A39 /* ReceiptScanner.swift */; };
+		31F74202AA002C9D46DA5CF0 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB12AA08D5153EF1095AE2CD /* RecipeDetailView.swift */; };
+		3463C791163BE25C29DFBCAA /* BudgetMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079AB25C9489271764A0CAE3 /* BudgetMonth.swift */; };
+		38E1B5727A5C8ED5F4AD49AE /* ShelfLifeCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171A15AB8CBA0D40049F90B1 /* ShelfLifeCatalog.swift */; };
+		3A2035939225690FFC83E0D5 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2834B554371C2CA0E3DE721 /* Task.swift */; };
+		40B0AE872786F7AFB1F1B11C /* GroceryIntelligentParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA7A8513687DF1AB83EF35 /* GroceryIntelligentParser.swift */; };
+		40C82C594D87DBF17F8986AE /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D10AB87925D1747D4B03CC8 /* Category.swift */; };
+		4148FF7DBFC7B460772C69DB /* ReceiptScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE79BFE6C02B01E64E32BB93 /* ReceiptScanViewModel.swift */; };
+		458ABDBCD6DD503C12404CA7 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD93FF96A235F2234F95F1FF /* HeaderView.swift */; };
+		4608246CF35D058D189CB7A5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6B078331CAD932835A82540B /* FirebaseFirestore */; };
+		46D1A76BEF22E8257DF4EAC1 /* PantryUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D560EDEAA043747DA58A7E /* PantryUnit.swift */; };
+		4C63938A729AC4D62283D64B /* PantryQuantityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63C4904AD16E114B1FEF16D /* PantryQuantityTests.swift */; };
+		4C98C9F7BF13A8629E63A49E /* GroceryPhraseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED516A99FDDDFBA677EEDA9 /* GroceryPhraseParser.swift */; };
+		4F3963A4FDC75CBE6C10C953 /* PriceObservationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E146FA0AF3672268937E5579 /* PriceObservationRepository.swift */; };
+		5337ADCD2E69382342F0ED43 /* ReceiptTextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32E22AE41C11691031C04A /* ReceiptTextParser.swift */; };
+		53C97B54FD53702611F786B3 /* HomeMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B443D2B321DD8E362C7A57 /* HomeMenuItem.swift */; };
+		540DBBA17D8AD23A2B528664 /* ShoppingRecommendationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD63A567A60C4F059DA363 /* ShoppingRecommendationEngine.swift */; };
+		540E12A4D5DE74B8BB877BFD /* MonthDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C6BD26C094380CEF2FDA2 /* MonthDetailView.swift */; };
+		55A09F36EC0F27C09C0F45D0 /* SmartGroceryFlowPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D99A44150692167A0FE76C /* SmartGroceryFlowPreview.swift */; };
+		55A26D25B421D774C72D3D06 /* AuthSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6F401B9C1A38034A96F274 /* AuthSupport.swift */; };
+		56EF8A2164D3E3121B2A7C33 /* SmartGroceryVoiceRequestStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3311175AC65B821833F224A /* SmartGroceryVoiceRequestStore.swift */; };
+		5A7A7FB0814E7F980EE35F79 /* ReceiptScanHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6DC3B34DDE764E8C60E302 /* ReceiptScanHomeView.swift */; };
+		5B812E83D2D9EA276525D110 /* AuthComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295BD5A111A320EC1CCB56FB /* AuthComponents.swift */; };
+		5DD66137CCCC33DA969A8B50 /* SmartGroceryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589C72964D33ED1EE85F4F12 /* SmartGroceryRepository.swift */; };
+		5E2D3808C98869FAA1B0374F /* MoneyEntryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A2C7DDB3A1DABCE46BFE6F /* MoneyEntryTests.swift */; };
+		620E7AE2D252B3E26DAC2E21 /* SmartGrocerySpendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D892CBFA8BBF7CCBB4795E61 /* SmartGrocerySpendingView.swift */; };
+		62EDE3ADF08F890987F55672 /* SeededDemoReceiptProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29570387F34F7A640D9763EF /* SeededDemoReceiptProvider.swift */; };
+		6393839B1A841DD71940BE41 /* SmartGroceryHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9B63704749E36EF5CB85F /* SmartGroceryHomeView.swift */; };
+		651CB466968730BD976EB322 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAA06E6BFBD6C9211D23D83 /* MainMenuView.swift */; };
+		65E0A449C8F68C7BC3C05407 /* CompositeRetailerPricingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BE7813E97EC839DAA63BFA /* CompositeRetailerPricingProvider.swift */; };
+		66C0E5AEF684B594D90C2939 /* PantryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C182759051186262A2E1AB /* PantryRepository.swift */; };
+		68BCD8A64350374765708253 /* LetsShopResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85D9A4BAEE0AE9E80764931 /* LetsShopResultsView.swift */; };
+		732F7AC8342D36145E6A6E19 /* ReceiptTriage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C13175338AD8B3D5A61106 /* ReceiptTriage.swift */; };
+		73A91A9DAC0BE9653AF024FA /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 6C5D23F86AC61169819CDB7C /* KeychainAccess */; };
+		73CDE3903AB185213F837966 /* SmartGroceryPricingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFF2916ABD385AC1EB17A8 /* SmartGroceryPricingModels.swift */; };
+		74E5C8DA9CBCA8ACEE70E4B1 /* ReceiptIntakeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CD29A62544290ED5E2E11 /* ReceiptIntakeService.swift */; };
+		7A59C46D582E1B3778EBFBBD /* GroceryListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F586B7FD66314DB48308D28 /* GroceryListsView.swift */; };
+		7AAA194709E670E54BC6630E /* PurchaseSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43E1FE711E7D359FE0B8354 /* PurchaseSignal.swift */; };
+		7FAA30E5427790040230E2CF /* ReceiptImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9C6C9EFAA60B5232C1166F /* ReceiptImportService.swift */; };
+		836845BD28B00DD52935A58D /* ReceiptScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E508929239FC7428CC87D70 /* ReceiptScannerView.swift */; };
+		851FDC156C4EB2C620A93675 /* SmartGroceryExpenseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5860062EBC45ECAC77292E2 /* SmartGroceryExpenseModels.swift */; };
+		8575B41677599A00B6D264F4 /* RecipeHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26686AF65AAB8B3778304A1C /* RecipeHomeViewModel.swift */; };
+		876F26072B412054588C4CEB /* SmartGroceryVoiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1394C7282983CE2CEBC08799 /* SmartGroceryVoiceManager.swift */; };
+		8817065EAE1029A63306B8C0 /* MoneyEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458E222EB73EF3C3C3BB2CDE /* MoneyEntry.swift */; };
+		89D20EEBEE081FDB3E1CC1FE /* ShoppingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D396E94E2C38C4A8F872221A /* ShoppingModels.swift */; };
+		8BD8F528CDD488F8A028EAEA /* SmartGroceryVoiceModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD40F5F4CBBA26323DDFAF /* SmartGroceryVoiceModels.swift */; };
+		8FCE2A7BF4E7DD68C7A4C3FB /* ReceiptTextParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D1B615D5E1B24BE8275E9C /* ReceiptTextParserTests.swift */; };
+		91D6346356C2FAF2359C7252 /* UserProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9A8733A33943C2D9274865 /* UserProfileManager.swift */; };
+		9322EB91B60F6959A1262E93 /* AddBudgetMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DB956429932639A0317C0 /* AddBudgetMonthView.swift */; };
+		949C2A0066B60126F33D90E1 /* GS1InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ABF12C4BFB90F5254000F8 /* GS1InfoView.swift */; };
+		97FDE369BAC4068E4921F627 /* NeatNestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B4FC47ADAEECC261B4D46D /* NeatNestApp.swift */; };
+		98A78FA77286A8FAADF28055 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 86D77E0910A75B4E4DC5F730 /* FirebaseDatabase */; };
+		9DC2F80D993CD51513EC3007 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88BDF77FB08FD963C4B9411 /* AddTaskView.swift */; };
+		A1878664FD416CB3276FA428 /* BudgetHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677D3132934BA295E2F51D2 /* BudgetHomeViewModel.swift */; };
+		A26F0F173458E666F87408B4 /* ListaSpesaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2E423E4CE44A4C4D651D65 /* ListaSpesaView.swift */; };
+		A5A41F41A2D658EEE1639CD9 /* LetsShopPreferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10BC53FA7F6BA06D6F7AFD4 /* LetsShopPreferenceView.swift */; };
+		A5CD81647DC6E1CDE301708D /* SmartGrocerySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1AA7C85F443DC9F05D52D7 /* SmartGrocerySettingsView.swift */; };
+		A7D445B00FFFC1E58C24EB26 /* TaskPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9B1E0B0F6250E154153FFA /* TaskPreviewView.swift */; };
+		A7F773EECE6460FBA6B0E6E5 /* LocalizedContentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD121E2024F81C9C8757D4E0 /* LocalizedContentTests.swift */; };
+		A9703C0B5857A3ED7D2E16DC /* RecipeSeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B525977A25FA42C911FC9E8 /* RecipeSeedLoader.swift */; };
+		AABA5294B6F83E5F70567249 /* RecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E76650E370846367C4D759A /* RecipeService.swift */; };
+		ABBD1EE1BEEDBD6C51F40DDA /* RepurchasePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4163F0C3AA73C55E0BC74C /* RepurchasePredictor.swift */; };
+		AC4D809164B4DB4436546A6B /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B0972C8917C14C1A9A1C9 /* AddTransactionView.swift */; };
+		AF7306F795293A11D7963076 /* PantryHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5221BFB3543CEB6A9EFCD72 /* PantryHomeView.swift */; };
+		B1CE3DDBCBDF17A6C1D07159 /* RecipeComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F477E0EB070CFB19C58DB8 /* RecipeComponents.swift */; };
+		B1DB2E59D128570AD3E6E96D /* FirestoreRetailerPricingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BF37A50B9EFEF07E6CE88F /* FirestoreRetailerPricingProvider.swift */; };
+		B329C32C8F819A95267E9D5E /* PurchaseNotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350F62B960AF2360790296B3 /* PurchaseNotificationHandler.swift */; };
+		B92EEF0FFF994EB4B8803A4B /* PriceObservationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69984B4D8F3FB664C5CB9514 /* PriceObservationTests.swift */; };
+		BB1992B61838105CF4BFD774 /* PriceObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC6EED56BAED9CAE35406D1 /* PriceObservation.swift */; };
+		C1739F0E6E6DEB63647E378E /* Recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = B64DBD4DF29A422913322536 /* Recipes.json */; };
+		C2988624D2501086CDD46FE2 /* TaskCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06615AFDA76AC5E54165354 /* TaskCardView.swift */; };
+		C70EE25222495283E405ACC8 /* PurchaseSignalCorrelator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D713AFE361553A426472757 /* PurchaseSignalCorrelator.swift */; };
+		C739EC9C95FAE587880144F0 /* SmartGroceryHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7B334EA533704EDCDD3A0F /* SmartGroceryHomeViewModel.swift */; };
+		CAFEFEE90E66D5D257931693 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4D80E0C61B18B53C86FC06B7 /* FirebaseAuth */; };
+		CB9812FB4E7E4D42E6F75172 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11C6474AFA8374ADA63731C /* UserSession.swift */; };
+		CBA1399194557190199EE729 /* MoneyHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D4DBAD7D81102C857A9F22 /* MoneyHomeViewModel.swift */; };
+		CBA9A9667D39762357EBEA61 /* PantryImportReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294DC02A771784F83F65D4EA /* PantryImportReviewView.swift */; };
+		CCA8E1BD15B3DC3BDB11E4A3 /* PurchaseNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4882F9C5A659114D3E8AF961 /* PurchaseNotifier.swift */; };
+		CD132B315B3962BA4B0FA72B /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2059943277397EBFC70C8EDD /* EditTaskView.swift */; };
+		CE8D7F5B24DDCCDC4D960B45 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F70746C59940D089232030D /* TasksView.swift */; };
+		CE91284DBD13378D2A80E8CA /* RecipeHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44328617E09591F12BD340DE /* RecipeHomeView.swift */; };
+		CEF285A29ECA745F166DCE89 /* PackageSizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5E4B10E57BA8A932F6E737 /* PackageSizeTests.swift */; };
+		CFDC7C135C8D9CB1B3A35EAE /* SmartGroceryVoiceAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F5BCAA17989E3E9CD0B8D1 /* SmartGroceryVoiceAssistantView.swift */; };
+		D08ECDA191CB871A7460EAFE /* PurchaseSignalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BA626424553017FAEAE356 /* PurchaseSignalStore.swift */; };
+		D61C4544060CB8B25AD04953 /* SmartGroceryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2021B37EE2E3C153BB24CC9 /* SmartGroceryService.swift */; };
+		D677E3A61E04C282A8E62049 /* RecipeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED23CAA95D1921C2E638BFE /* RecipeModels.swift */; };
+		D7878A9AC369C347BA9D6A42 /* SmartGroceryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D205977D799EDF49263E12 /* SmartGroceryModels.swift */; };
+		D914F83D3E999BB9ECB455D7 /* PurchaseAppIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6247DA3503207AB72B7FE66 /* PurchaseAppIntents.swift */; };
+		D93237344A840CB31E282441 /* QuickAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F32FD63BEBDE63E3AF617B /* QuickAddView.swift */; };
+		DA7F8C9A9A9A9B5058B97171 /* LocalizedContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F93678816530F1E371FABAF /* LocalizedContent.swift */; };
+		DE21636EDA1FEACCDD419741 /* ReceiptCategoryInferrer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E0C731AB35CB1A653E478 /* ReceiptCategoryInferrer.swift */; };
+		DE6EF76AAC62836633F8C29D /* PriceObservationAggregator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A24E2860951D4AAA77F664F /* PriceObservationAggregator.swift */; };
+		DF069600A4C502D6B16A2AFD /* SeededProductCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1DC9CAFCFA9DB394FC9C7C /* SeededProductCatalog.swift */; };
+		E0D0BBC5869C91106C74BD74 /* PackageSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755E0F57D9DE03069C5CCBB /* PackageSize.swift */; };
+		E19A786F915F2C40432B9F77 /* PurchaseSignalCorrelatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC28D70F8689901691A22B6 /* PurchaseSignalCorrelatorTests.swift */; };
+		E1F637FEFF229DD0AA6173F2 /* PurchaseDetectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33A127F0CE207942BC1D486 /* PurchaseDetectionManager.swift */; };
+		E2E5C2E17C29FEB032835802 /* PriceCompareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77BC594707AB09A238C20DD /* PriceCompareView.swift */; };
+		E3DB75BC29AC886EBEED32BC /* BudgetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4565B01386F9BE798C04195 /* BudgetListView.swift */; };
+		E42D6A9B80A0A61CFC224DBF /* FeaturePlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5765E168AC4811084EE886C /* FeaturePlaceholderView.swift */; };
+		E50D22649E4E29DB293965A3 /* PendingUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48904EB4746CBEDCEEF17478 /* PendingUserProfile.swift */; };
+		E54A25F7FDEDF4E1C929F732 /* CurrentMonthSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3E2B241653A00B7D5F6159 /* CurrentMonthSummaryView.swift */; };
+		E563507B3B5765899F8D8261 /* PantryHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468060CB398F1A35B07043F0 /* PantryHomeViewModel.swift */; };
+		E5D9667EAD6DE542B6338B6F /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD952DC588E66926F1C568C /* Transaction.swift */; };
+		E6D4B1B8B1271D9623C49B4B /* Recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = B64DBD4DF29A422913322536 /* Recipes.json */; };
+		E7DB2CADB383ACA8649EC8E2 /* PurchaseDetectionSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C590D8F9AE080B1745017A7F /* PurchaseDetectionSetupView.swift */; };
+		E8A6886B67021AD21A4DC263 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238C980CEC7D6797535BE825 /* TransactionsView.swift */; };
+		E8D29DF542E43E41A501C637 /* PantryComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A398722BB55FAE9A53D1E99 /* PantryComponents.swift */; };
+		EA938290C38DFC74484098E2 /* PreviewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CFC4AE30032155195C2BDD /* PreviewSupport.swift */; };
+		EBDFCA08D2E3C519D31E0783 /* AppleSignInNonce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0CEFFB6ECAB148F7F5C76 /* AppleSignInNonce.swift */; };
+		EC36613714055CFCDC0D1870 /* GroceryListDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2853CDE213BEE6245911C0E3 /* GroceryListDetailViewModel.swift */; };
+		EE56772C9C574F75D78E0234 /* CategoryManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DF3E7059449FECB340672 /* CategoryManagementView.swift */; };
+		EF7F98442B698F07ABE29624 /* RecipeMatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C41CAFC16804F0F7C212D60 /* RecipeMatcherTests.swift */; };
+		EFBB59AFEF223B088A1D230E /* UIApplication+TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57355CC09ECA3617AD968CDE /* UIApplication+TopViewController.swift */; };
+		F148645B350C60B06A067D98 /* MoneyRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8161A076932152F17F5C4736 /* MoneyRepository.swift */; };
+		F175FDF103D9E6C1C3C8FF00 /* MoneyHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BDB52FCF44FF6A4A5F6BE3 /* MoneyHomeView.swift */; };
+		F38E0AEB66D25AA98AEF800C /* CompleteProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F138A6AB21EACD50FB1CB041 /* CompleteProfileView.swift */; };
+		F54C4BAA257BCD4555816F2C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66B5BEA569189E3C66E8E1EF /* GoogleService-Info.plist */; };
+		F585B0C2C54863CC515D4336 /* SmartGrocerySpendingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7601B062F330BFD6631516 /* SmartGrocerySpendingViewModel.swift */; };
+		F59C46618A945B4A9752492A /* RecipeMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942B162740E1D9F679355790 /* RecipeMatcher.swift */; };
+		F65520CE720256E2FE50DA81 /* BudgetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FBDDED99CAF5CC099ABC9B /* BudgetManager.swift */; };
+		F69859B603C262EC9220DEC2 /* DettaglioListaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3123B4345991707D5B966AED /* DettaglioListaView.swift */; };
+		F7A95671496C5FEB7823D1BB /* PantryItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFF5A9A3B04901CBB25602 /* PantryItemTests.swift */; };
+		F8C54F50D85712CA0CEF3674 /* PantryIngestionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5532A0794D2188651473BA /* PantryIngestionTests.swift */; };
+		F93E697661FB04FCBEA5A980 /* RecipeVariantEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC8E8FA4AF22A2BE29E028 /* RecipeVariantEditorView.swift */; };
+		FCF2699AF716A3DDB3F246AA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D632DD7E66C295770BD576 /* LoginView.swift */; };
+		FF566488F67D815E4715EF10 /* ShelfLifeCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2154101CE08C36244483651F /* ShelfLifeCatalogTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6227B14008F3C4BA6276A2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5C0C804DE7D85CC09454E29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CF865ABE6052250D0837623;
+			remoteInfo = NeatNest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06D99A44150692167A0FE76C /* SmartGroceryFlowPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGroceryFlowPreview.swift; sourceTree = "<group>"; };
+		0755E0F57D9DE03069C5CCBB /* PackageSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageSize.swift; sourceTree = "<group>"; };
+		079AB25C9489271764A0CAE3 /* BudgetMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetMonth.swift; sourceTree = "<group>"; };
+		0875413EC404C5F2CA7BBB43 /* NeatNestTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NeatNestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FD4B2B656FB3D2C47ABF0C1 /* ReceiptTriageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptTriageTests.swift; sourceTree = "<group>"; };
+		1394C7282983CE2CEBC08799 /* SmartGroceryVoiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGroceryVoiceManager.swift; sourceTree = "<group>"; };
+		13D1B615D5E1B24BE8275E9C /* ReceiptTextParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptTextParserTests.swift; sourceTree = "<group>"; };
+		15CFC4AE30032155195C2BDD /* PreviewSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSupport.swift; sourceTree = "<group>"; };
+		171A15AB8CBA0D40049F90B1 /* ShelfLifeCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfLifeCatalog.swift; sourceTree = "<group>"; };
+		17738BB4C314B03927613206 /* SeededRetailerPricingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeededRetailerPricingProvider.swift; sourceTree = "<group>"; };
+		18CA7EF84C03D90A53E1364C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		1A24E2860951D4AAA77F664F /* PriceObservationAggregator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceObservationAggregator.swift; sourceTree = "<group>"; };
+		1A398722BB55FAE9A53D1E99 /* PantryComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryComponents.swift; sourceTree = "<group>"; };
+		1B0CD29A62544290ED5E2E11 /* ReceiptIntakeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptIntakeService.swift; sourceTree = "<group>"; };
+		1D53211DE4A0A517B415AE97 /* PantryLevelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryLevelTests.swift; sourceTree = "<group>"; };
+		1D9B1E0B0F6250E154153FFA /* TaskPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPreviewView.swift; sourceTree = "<group>"; };
+		1E76650E370846367C4D759A /* RecipeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeService.swift; sourceTree = "<group>"; };
+		1F32E22AE41C11691031C04A /* ReceiptTextParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptTextParser.swift; sourceTree = "<group>"; };
+		1FDC4F3ECCDA44965702E4C6 /* GroceryListsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListsViewModel.swift; sourceTree = "<group>"; };
+		2059943277397EBFC70C8EDD /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
+		2154101CE08C36244483651F /* ShelfLifeCatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfLifeCatalogTests.swift; sourceTree = "<group>"; };
+		238C980CEC7D6797535BE825 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		2613F4B9E0E6E5B1F1606653 /* PantryItemEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryItemEditorView.swift; sourceTree = "<group>"; };
+		26686AF65AAB8B3778304A1C /* RecipeHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHomeViewModel.swift; sourceTree = "<group>"; };
+		2677D3132934BA295E2F51D2 /* BudgetHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetHomeViewModel.swift; sourceTree = "<group>"; };
+		27D205977D799EDF49263E12 /* SmartGroceryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGroceryModels.swift; sourceTree = "<group>"; };
+		2853CDE213BEE6245911C0E3 /* GroceryListDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListDetailViewModel.swift; sourceTree = "<group>"; };
+		28D2133C78C272E5E0208ADA /* LetsShopPreferenceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsShopPreferenceViewModel.swift; sourceTree = "<group>"; };
+		294DC02A771784F83F65D4EA /* PantryImportReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryImportReviewView.swift; sourceTree = "<group>"; };
+		29570387F34F7A640D9763EF /* SeededDemoReceiptProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeededDemoReceiptProvider.swift; sourceTree = "<group>"; };
+		295BD5A111A320EC1CCB56FB /* AuthComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthComponents.swift; sourceTree = "<group>"; };
+		29C791ED8CD5B27029C9DED2 /* UserOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserOverviewView.swift; sourceTree = "<group>"; };
+		2A5673C4D6F1A018B893AC33 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		2B4163F0C3AA73C55E0BC74C /* RepurchasePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepurchasePredictor.swift; sourceTree = "<group>"; };
+		2DCFF2916ABD385AC1EB17A8 /* SmartGroceryPricingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGroceryPricingModels.swift; sourceTree = "<group>"; };
+		2E508929239FC7428CC87D70 /* ReceiptScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptScannerView.swift; sourceTree = "<group>"; };
+		2E7B398DA00B323CAC02636D /* GroceryPhraseParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryPhraseParserTests.swift; sourceTree = "<group>"; };
+		2EAA06E6BFBD6C9211D23D83 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		2F586B7FD66314DB48308D28 /* GroceryListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListsView.swift; sourceTree = "<group>"; };
+		3123B4345991707D5B966AED /* DettaglioListaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DettaglioListaView.swift; sourceTree = "<group>"; };
+		32D560EDEAA043747DA58A7E /* PantryUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryUnit.swift; sourceTree = "<group>"; };
+		350F62B960AF2360790296B3 /* PurchaseNotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseNotificationHandler.swift; sourceTree = "<group>"; };
+		35BDB52FCF44FF6A4A5F6BE3 /* MoneyHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyHomeView.swift; sourceTree = "<group>"; };
+		3A9C6C9EFAA60B5232C1166F /* ReceiptImportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptImportService.swift; sourceTree = "<group>"; };
+		3B525977A25FA42C911FC9E8 /* RecipeSeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSeedLoader.swift; sourceTree = "<group>"; };
+		3D1BD2AAE1C89023D8616DDC /* RepurchasePredictorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepurchasePredictorTests.swift; sourceTree = "<group>"; };
+		3D3E2B241653A00B7D5F6159 /* CurrentMonthSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentMonthSummaryView.swift; sourceTree = "<group>"; };
+		44328617E09591F12BD340DE /* RecipeHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHomeView.swift; sourceTree = "<group>"; };
+		458E222EB73EF3C3C3BB2CDE /* MoneyEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyEntry.swift; sourceTree = "<group>"; };
+		468060CB398F1A35B07043F0 /* PantryHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryHomeViewModel.swift; sourceTree = "<group>"; };
+		47F5BCAA17989E3E9CD0B8D1 /* SmartGroceryVoiceAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGroceryVoiceAssistantView.swift; sourceTree = "<group>"; };
+		4882F9C5A659114D3E8AF961 /* PurchaseNotifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseNotifier.swift; sourceTree = "<group>"; };
+		48904EB4746CBEDCEEF17478 /* PendingUserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingUserProfile.swift; sourceTree = "<group>"; };
+		4974B04E7B59EB3D8CDC20FE /* StoreProximityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreProximityMonitor.swift; sourceTree = "<group>"; };
+		4ED23CAA95D1921C2E638BFE /* RecipeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModels.swift; sourceTree = "<group>"; };
+		4F52C326788BFB1AAE74AE16 /* BudgetHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetHomeView.swift; sourceTree = "<group>"; };
+		56C182759051186262A2E1AB /* PantryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryRepository.swift; sourceTree = "<group>"; };
+		57355CC09ECA3617AD968CDE /* UIApplication+TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+TopViewController.swift"; sourceTree = "<group>"; };
+		589C72964D33ED1EE85F4F12 /* SmartGroceryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGroceryRepository.swift; sourceTree = "<group>"; };
+		596415EF8622E0BC9D899832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59BE7813E97EC839DAA63BFA /* CompositeRetailerPricingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeRetailerPricingProvider.swift; sourceTree = "<group>"; };
+		5ACFF5A9A3B04901CBB25602 /* PantryItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryItemTests.swift; sourceTree = "<group>"; };
+		5E1DC9CAFCFA9DB394FC9C7C /* SeededProductCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeededProductCatalog.swift; sourceTree = "<group>"; };
+		603060F7C9E25AD5D603D29D /* PantryImportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryImportViewModel.swift; sourceTree = "<group>"; };
+		60B494316CE3FF58264C6873 /* DemoReceiptProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoReceiptProvider.swift; sourceTree = "<group>"; };
+		6304DDE28BEDF0E3D61106AD /* GroceryCatalogMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryCatalogMatcher.swift; sourceTree = "<group>"; };
+		637CF176B9515565740F8190 /* GroceryExpenseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryExpenseRepository.swift; sourceTree = "<group>"; };
+		66B5BEA569189E3C66E8E1EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		69984B4D8F3FB664C5CB9514 /* PriceObservationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceObservationTests.swift; sourceTree = "<group>"; };
+		6C5E4B10E57BA8A932F6E737 /* PackageSizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageSizeTests.swift; sourceTree = "<group>"; };
+		6C9A8733A33943C2D9274865 /* UserProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileManager.swift; sourceTree = "<group>"; };
+		6CF4EFA37AB2351ED3144087 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		6DC0CEFFB6ECAB148F7F5C76 /* AppleSignInNonce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInNonce.swift; sourceTree = "<group>"; };
+		6DF17ACC5CBFEACF538DD2E8 /* RecipeCatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCatalogTests.swift; sourceTree = "<group>"; };
+		6F14796266068147832B4ADE /* PantryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryItem.swift; sourceTree = "<group>"; };
+		6F93678816530F1E371FABAF /* LocalizedContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedContent.swift; sourceTree = "<group>"; };
+		71FBDDED99CAF5CC099ABC9B /* BudgetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetManager.swift; sourceTree = "<group>"; };
+		78D632DD7E66C295770BD576 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7A1AA7C85F443DC9F05D52D7 /* SmartGrocerySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGrocerySettingsView.swift; sourceTree = "<group>"; };
+		7C41CAFC16804F0F7C212D60 /* RecipeMatcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeMatcherTests.swift; sourceTree = "<group>"; };
+		7D10AB87925D1747D4B03CC8 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		7F6DC3B34DDE764E8C60E302 /* ReceiptScanHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptScanHomeView.swift; sourceTree = "<group>"; };
+		80ABF12C4BFB90F5254000F8 /* GS1InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GS1InfoView.swift; sourceTree = "<group>"; };
+		8161A076932152F17F5C4736 /* MoneyRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyRepository.swift; sourceTree = "<group>"; };
+		88BF37A50B9EFEF07E6CE88F /* FirestoreRetailerPricingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreRetailerPricingProvider.swift; sourceTree = "<group>"; };
+		8B3DF3E7059449FECB340672 /* CategoryManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryManagementView.swift; sourceTree = "<group>"; };
+		942B162740E1D9F679355790 /* RecipeMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeMatcher.swift; sourceTree = "<group>"; };
+		94E9B63704749E36EF5CB85F /* SmartGroceryHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGroceryHomeView.swift; sourceTree = "<group>"; };
+		95AA7A8513687DF1AB83EF35 /* GroceryIntelligentParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryIntelligentParser.swift; sourceTree = "<group>"; };
+		9CED3965AFBD401D84D6BEBC /* StoreMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreMapView.swift; sourceTree = "<group>"; };
+		9D713AFE361553A426472757 /* PurchaseSignalCorrelator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSignalCorrelator.swift; sourceTree = "<group>"; };
+		9F70746C59940D089232030D /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		A1CA588581E70C14B4ED870D /* RetailerPricingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailerPricingProvider.swift; sourceTree = "<group>"; };
+		A3C13175338AD8B3D5A61106 /* ReceiptTriage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptTriage.swift; sourceTree = "<group>"; };
+		AB12AA08D5153EF1095AE2CD /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		AD121E2024F81C9C8757D4E0 /* LocalizedContentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedContentTests.swift; sourceTree = "<group>"; };
+		AD93FF96A235F2234F95F1FF /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		AF7C6BD26C094380CEF2FDA2 /* MonthDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthDetailView.swift; sourceTree = "<group>"; };
+		B06615AFDA76AC5E54165354 /* TaskCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCardView.swift; sourceTree = "<group>"; };
+		B11C6474AFA8374ADA63731C /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		B2A2C7DDB3A1DABCE46BFE6F /* MoneyEntryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyEntryTests.swift; sourceTree = "<group>"; };
+		B2B443D2B321DD8E362C7A57 /* HomeMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMenuItem.swift; sourceTree = "<group>"; };
+		B43099A751A3E888BB9BBDD0 /* AddTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewModel.swift; sourceTree = "<group>"; };
+		B43E1FE711E7D359FE0B8354 /* PurchaseSignal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSignal.swift; sourceTree = "<group>"; };
+		B4B4FC47ADAEECC261B4D46D /* NeatNestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeatNestApp.swift; sourceTree = "<group>"; };
+		B5221BFB3543CEB6A9EFCD72 /* PantryHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryHomeView.swift; sourceTree = "<group>"; };
+		B64DBD4DF29A422913322536 /* Recipes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Recipes.json; sourceTree = "<group>"; };
+		B88B0972C8917C14C1A9A1C9 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		BC7B334EA533704EDCDD3A0F /* SmartGroceryHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGroceryHomeViewModel.swift; sourceTree = "<group>"; };
+		BE79BFE6C02B01E64E32BB93 /* ReceiptScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptScanViewModel.swift; sourceTree = "<group>"; };
+		BF2E423E4CE44A4C4D651D65 /* ListaSpesaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaSpesaView.swift; sourceTree = "<group>"; };
+		C0E76C8ED782A1608CE40C99 /* CurrencyFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormat.swift; sourceTree = "<group>"; };
+		C10BC53FA7F6BA06D6F7AFD4 /* LetsShopPreferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsShopPreferenceView.swift; sourceTree = "<group>"; };
+		C1F32FD63BEBDE63E3AF617B /* QuickAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAddView.swift; sourceTree = "<group>"; };
+		C2834B554371C2CA0E3DE721 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		C3311175AC65B821833F224A /* SmartGroceryVoiceRequestStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGroceryVoiceRequestStore.swift; sourceTree = "<group>"; };
+		C4565B01386F9BE798C04195 /* BudgetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetListView.swift; sourceTree = "<group>"; };
+		C590D8F9AE080B1745017A7F /* PurchaseDetectionSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseDetectionSetupView.swift; sourceTree = "<group>"; };
+		C75F3C13A82E058A567B62DE /* LetsShopService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsShopService.swift; sourceTree = "<group>"; };
+		C9FF68269825C8746E20F11C /* PantryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryService.swift; sourceTree = "<group>"; };
+		CB5D43F24F3A3692ECF49F5A /* RecipeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRepository.swift; sourceTree = "<group>"; };
+		CC6B464339DF0B5E1CB61A39 /* ReceiptScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptScanner.swift; sourceTree = "<group>"; };
+		CD7601B062F330BFD6631516 /* SmartGrocerySpendingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGrocerySpendingViewModel.swift; sourceTree = "<group>"; };
+		CED516A99FDDDFBA677EEDA9 /* GroceryPhraseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryPhraseParser.swift; sourceTree = "<group>"; };
+		D396E94E2C38C4A8F872221A /* ShoppingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingModels.swift; sourceTree = "<group>"; };
+		D5765E168AC4811084EE886C /* FeaturePlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturePlaceholderView.swift; sourceTree = "<group>"; };
+		D5860062EBC45ECAC77292E2 /* SmartGroceryExpenseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGroceryExpenseModels.swift; sourceTree = "<group>"; };
+		D6247DA3503207AB72B7FE66 /* PurchaseAppIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseAppIntents.swift; sourceTree = "<group>"; };
+		D63C4904AD16E114B1FEF16D /* PantryQuantityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryQuantityTests.swift; sourceTree = "<group>"; };
+		D892CBFA8BBF7CCBB4795E61 /* SmartGrocerySpendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGrocerySpendingView.swift; sourceTree = "<group>"; };
+		D8D26316192465FAD1DD3FAC /* NeatNest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NeatNest.entitlements; sourceTree = "<group>"; };
+		DA6F401B9C1A38034A96F274 /* AuthSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSupport.swift; sourceTree = "<group>"; };
+		DBC6EED56BAED9CAE35406D1 /* PriceObservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceObservation.swift; sourceTree = "<group>"; };
+		DCD952DC588E66926F1C568C /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		E146FA0AF3672268937E5579 /* PriceObservationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceObservationRepository.swift; sourceTree = "<group>"; };
+		E23EA0ABFE7F93A51BD53FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E4AF7B1ED7110C1D5D668B5C /* SmartGroceryComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGroceryComponents.swift; sourceTree = "<group>"; };
+		E8BA626424553017FAEAE356 /* PurchaseSignalStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSignalStore.swift; sourceTree = "<group>"; };
+		E9AD40F5F4CBBA26323DDFAF /* SmartGroceryVoiceModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGroceryVoiceModels.swift; sourceTree = "<group>"; };
+		EC5532A0794D2188651473BA /* PantryIngestionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryIngestionTests.swift; sourceTree = "<group>"; };
+		EC74D90F23337B8C7856B149 /* GroceryListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListDetailView.swift; sourceTree = "<group>"; };
+		EFC28D70F8689901691A22B6 /* PurchaseSignalCorrelatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSignalCorrelatorTests.swift; sourceTree = "<group>"; };
+		F00E0C731AB35CB1A653E478 /* ReceiptCategoryInferrer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptCategoryInferrer.swift; sourceTree = "<group>"; };
+		F0D4DBAD7D81102C857A9F22 /* MoneyHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyHomeViewModel.swift; sourceTree = "<group>"; };
+		F138A6AB21EACD50FB1CB041 /* CompleteProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteProfileView.swift; sourceTree = "<group>"; };
+		F1AD63A567A60C4F059DA363 /* ShoppingRecommendationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingRecommendationEngine.swift; sourceTree = "<group>"; };
+		F2021B37EE2E3C153BB24CC9 /* SmartGroceryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGroceryService.swift; sourceTree = "<group>"; };
+		F33A127F0CE207942BC1D486 /* PurchaseDetectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseDetectionManager.swift; sourceTree = "<group>"; };
+		F37DB956429932639A0317C0 /* AddBudgetMonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetMonthView.swift; sourceTree = "<group>"; };
+		F4B25AEB5D5905B33A4109A8 /* NeatNest.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = NeatNest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F477E0EB070CFB19C58DB8 /* RecipeComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeComponents.swift; sourceTree = "<group>"; };
+		F77BC594707AB09A238C20DD /* PriceCompareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCompareView.swift; sourceTree = "<group>"; };
+		F85D9A4BAEE0AE9E80764931 /* LetsShopResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsShopResultsView.swift; sourceTree = "<group>"; };
+		F88BDF77FB08FD963C4B9411 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		FC348A28A504A5306ADF00AD /* MoneyEntryEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyEntryEditorView.swift; sourceTree = "<group>"; };
+		FEEC8E8FA4AF22A2BE29E028 /* RecipeVariantEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeVariantEditorView.swift; sourceTree = "<group>"; };
+		FF16C527402F8D33323A77D3 /* SmartGroceryAppIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGroceryAppIntents.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		857BFA4D99E9EC329DD62982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DCDE719D7EFA4E1EAC1B6D1 /* FirebaseCore in Frameworks */,
+				CAFEFEE90E66D5D257931693 /* FirebaseAuth in Frameworks */,
+				4608246CF35D058D189CB7A5 /* FirebaseFirestore in Frameworks */,
+				98A78FA77286A8FAADF28055 /* FirebaseDatabase in Frameworks */,
+				24887BCAF8368440C11A4038 /* GoogleSignIn in Frameworks */,
+				73A91A9DAC0BE9653AF024FA /* KeychainAccess in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09046C7666141A63AB4CE017 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18CA7EF84C03D90A53E1364C /* Localizable.xcstrings */,
+				B64DBD4DF29A422913322536 /* Recipes.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		09D3563292D5B65668126DD7 /* Receipts */ = {
+			isa = PBXGroup;
+			children = (
+				BE79BFE6C02B01E64E32BB93 /* ReceiptScanViewModel.swift */,
+			);
+			path = Receipts;
+			sourceTree = "<group>";
+		};
+		0AC2DAFBB9B991879750A1E6 /* Money */ = {
+			isa = PBXGroup;
+			children = (
+				FC348A28A504A5306ADF00AD /* MoneyEntryEditorView.swift */,
+				35BDB52FCF44FF6A4A5F6BE3 /* MoneyHomeView.swift */,
+			);
+			path = Money;
+			sourceTree = "<group>";
+		};
+		0FB4688A1B92839D3CCD3FDC /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				6DC0CEFFB6ECAB148F7F5C76 /* AppleSignInNonce.swift */,
+				DA6F401B9C1A38034A96F274 /* AuthSupport.swift */,
+				2A5673C4D6F1A018B893AC33 /* Color+Hex.swift */,
+				C0E76C8ED782A1608CE40C99 /* CurrencyFormat.swift */,
+				6F93678816530F1E371FABAF /* LocalizedContent.swift */,
+				15CFC4AE30032155195C2BDD /* PreviewSupport.swift */,
+				57355CC09ECA3617AD968CDE /* UIApplication+TopViewController.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		1535318BC3DA006CDFE4F026 /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				26686AF65AAB8B3778304A1C /* RecipeHomeViewModel.swift */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		17BE02DCCEE6DF0E6549CDCF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D5765E168AC4811084EE886C /* FeaturePlaceholderView.swift */,
+				2EAA06E6BFBD6C9211D23D83 /* MainMenuView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		205ABC1B978104023298F99D /* Receipts */ = {
+			isa = PBXGroup;
+			children = (
+				7F6DC3B34DDE764E8C60E302 /* ReceiptScanHomeView.swift */,
+			);
+			path = Receipts;
+			sourceTree = "<group>";
+		};
+		22D3A99B25CB96102DAE3185 /* Pantry */ = {
+			isa = PBXGroup;
+			children = (
+				56C182759051186262A2E1AB /* PantryRepository.swift */,
+				C9FF68269825C8746E20F11C /* PantryService.swift */,
+				2B4163F0C3AA73C55E0BC74C /* RepurchasePredictor.swift */,
+				171A15AB8CBA0D40049F90B1 /* ShelfLifeCatalog.swift */,
+			);
+			path = Pantry;
+			sourceTree = "<group>";
+		};
+		25EFD20D5756E70AC98CD0CC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B4B4FC47ADAEECC261B4D46D /* NeatNestApp.swift */,
+				D6247DA3503207AB72B7FE66 /* PurchaseAppIntents.swift */,
+				FF16C527402F8D33323A77D3 /* SmartGroceryAppIntents.swift */,
+				B11C6474AFA8374ADA63731C /* UserSession.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		277F4C3A11677F00F780E7E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4B25AEB5D5905B33A4109A8 /* NeatNest.app */,
+				0875413EC404C5F2CA7BBB43 /* NeatNestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2851C6AC807098165D8C94F1 /* SmartGrocery */ = {
+			isa = PBXGroup;
+			children = (
+				59BE7813E97EC839DAA63BFA /* CompositeRetailerPricingProvider.swift */,
+				60B494316CE3FF58264C6873 /* DemoReceiptProvider.swift */,
+				88BF37A50B9EFEF07E6CE88F /* FirestoreRetailerPricingProvider.swift */,
+				6304DDE28BEDF0E3D61106AD /* GroceryCatalogMatcher.swift */,
+				637CF176B9515565740F8190 /* GroceryExpenseRepository.swift */,
+				95AA7A8513687DF1AB83EF35 /* GroceryIntelligentParser.swift */,
+				CED516A99FDDDFBA677EEDA9 /* GroceryPhraseParser.swift */,
+				C75F3C13A82E058A567B62DE /* LetsShopService.swift */,
+				F00E0C731AB35CB1A653E478 /* ReceiptCategoryInferrer.swift */,
+				3A9C6C9EFAA60B5232C1166F /* ReceiptImportService.swift */,
+				CC6B464339DF0B5E1CB61A39 /* ReceiptScanner.swift */,
+				1F32E22AE41C11691031C04A /* ReceiptTextParser.swift */,
+				A3C13175338AD8B3D5A61106 /* ReceiptTriage.swift */,
+				A1CA588581E70C14B4ED870D /* RetailerPricingProvider.swift */,
+				29570387F34F7A640D9763EF /* SeededDemoReceiptProvider.swift */,
+				5E1DC9CAFCFA9DB394FC9C7C /* SeededProductCatalog.swift */,
+				17738BB4C314B03927613206 /* SeededRetailerPricingProvider.swift */,
+				F1AD63A567A60C4F059DA363 /* ShoppingRecommendationEngine.swift */,
+				589C72964D33ED1EE85F4F12 /* SmartGroceryRepository.swift */,
+				F2021B37EE2E3C153BB24CC9 /* SmartGroceryService.swift */,
+				1394C7282983CE2CEBC08799 /* SmartGroceryVoiceManager.swift */,
+				C3311175AC65B821833F224A /* SmartGroceryVoiceRequestStore.swift */,
+			);
+			path = SmartGrocery;
+			sourceTree = "<group>";
+		};
+		330CDF37146FE125B3CB7850 /* NeatNestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E7B398DA00B323CAC02636D /* GroceryPhraseParserTests.swift */,
+				AD121E2024F81C9C8757D4E0 /* LocalizedContentTests.swift */,
+				B2A2C7DDB3A1DABCE46BFE6F /* MoneyEntryTests.swift */,
+				6C5E4B10E57BA8A932F6E737 /* PackageSizeTests.swift */,
+				EC5532A0794D2188651473BA /* PantryIngestionTests.swift */,
+				5ACFF5A9A3B04901CBB25602 /* PantryItemTests.swift */,
+				1D53211DE4A0A517B415AE97 /* PantryLevelTests.swift */,
+				D63C4904AD16E114B1FEF16D /* PantryQuantityTests.swift */,
+				69984B4D8F3FB664C5CB9514 /* PriceObservationTests.swift */,
+				EFC28D70F8689901691A22B6 /* PurchaseSignalCorrelatorTests.swift */,
+				13D1B615D5E1B24BE8275E9C /* ReceiptTextParserTests.swift */,
+				0FD4B2B656FB3D2C47ABF0C1 /* ReceiptTriageTests.swift */,
+				6DF17ACC5CBFEACF538DD2E8 /* RecipeCatalogTests.swift */,
+				7C41CAFC16804F0F7C212D60 /* RecipeMatcherTests.swift */,
+				3D1BD2AAE1C89023D8616DDC /* RepurchasePredictorTests.swift */,
+				2154101CE08C36244483651F /* ShelfLifeCatalogTests.swift */,
+			);
+			path = NeatNestTests;
+			sourceTree = "<group>";
+		};
+		36BB6E78F42B9E1DA78601B5 /* SmartGrocery */ = {
+			isa = PBXGroup;
+			children = (
+				2853CDE213BEE6245911C0E3 /* GroceryListDetailViewModel.swift */,
+				1FDC4F3ECCDA44965702E4C6 /* GroceryListsViewModel.swift */,
+				28D2133C78C272E5E0208ADA /* LetsShopPreferenceViewModel.swift */,
+				BC7B334EA533704EDCDD3A0F /* SmartGroceryHomeViewModel.swift */,
+				CD7601B062F330BFD6631516 /* SmartGrocerySpendingViewModel.swift */,
+			);
+			path = SmartGrocery;
+			sourceTree = "<group>";
+		};
+		4A229D667D14D6F3B0EC819A /* Money */ = {
+			isa = PBXGroup;
+			children = (
+				458E222EB73EF3C3C3BB2CDE /* MoneyEntry.swift */,
+			);
+			path = Money;
+			sourceTree = "<group>";
+		};
+		4CFFA2C99E43843C7DD88542 /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				4ED23CAA95D1921C2E638BFE /* RecipeModels.swift */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		505BF0C52B065CA48C4C7801 /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				C590D8F9AE080B1745017A7F /* PurchaseDetectionSetupView.swift */,
+			);
+			path = Purchase;
+			sourceTree = "<group>";
+		};
+		607F39D860938A94C4B5FEA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCD276249967A75B5AF1B0AB /* Auth */,
+				A8C4087FAD43023FD4835AEE /* Budget */,
+				17BE02DCCEE6DF0E6549CDCF /* Main */,
+				0AC2DAFBB9B991879750A1E6 /* Money */,
+				C0F79B5614F25F833E2D07EE /* Pantry */,
+				D77359894CFA581FDF00EFA1 /* Profile */,
+				505BF0C52B065CA48C4C7801 /* Purchase */,
+				205ABC1B978104023298F99D /* Receipts */,
+				C41086E01CDA3C907FBE971A /* Recipes */,
+				EAB032677DCCB9D1A11D4F12 /* Shopping */,
+				6754B9052CD288FA5D5FFB66 /* SmartGrocery */,
+				DDE0F1794EB86D1EC8E8C1E5 /* Tasks */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6754B9052CD288FA5D5FFB66 /* SmartGrocery */ = {
+			isa = PBXGroup;
+			children = (
+				EC74D90F23337B8C7856B149 /* GroceryListDetailView.swift */,
+				2F586B7FD66314DB48308D28 /* GroceryListsView.swift */,
+				80ABF12C4BFB90F5254000F8 /* GS1InfoView.swift */,
+				C10BC53FA7F6BA06D6F7AFD4 /* LetsShopPreferenceView.swift */,
+				F85D9A4BAEE0AE9E80764931 /* LetsShopResultsView.swift */,
+				F77BC594707AB09A238C20DD /* PriceCompareView.swift */,
+				C1F32FD63BEBDE63E3AF617B /* QuickAddView.swift */,
+				2E508929239FC7428CC87D70 /* ReceiptScannerView.swift */,
+				E4AF7B1ED7110C1D5D668B5C /* SmartGroceryComponents.swift */,
+				06D99A44150692167A0FE76C /* SmartGroceryFlowPreview.swift */,
+				94E9B63704749E36EF5CB85F /* SmartGroceryHomeView.swift */,
+				7A1AA7C85F443DC9F05D52D7 /* SmartGrocerySettingsView.swift */,
+				D892CBFA8BBF7CCBB4795E61 /* SmartGrocerySpendingView.swift */,
+				47F5BCAA17989E3E9CD0B8D1 /* SmartGroceryVoiceAssistantView.swift */,
+				9CED3965AFBD401D84D6BEBC /* StoreMapView.swift */,
+			);
+			path = SmartGrocery;
+			sourceTree = "<group>";
+		};
+		6865D60D7A8E11FDB68C6354 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				079AB25C9489271764A0CAE3 /* BudgetMonth.swift */,
+				7D10AB87925D1747D4B03CC8 /* Category.swift */,
+				B2B443D2B321DD8E362C7A57 /* HomeMenuItem.swift */,
+				48904EB4746CBEDCEEF17478 /* PendingUserProfile.swift */,
+				D396E94E2C38C4A8F872221A /* ShoppingModels.swift */,
+				C2834B554371C2CA0E3DE721 /* Task.swift */,
+				DCD952DC588E66926F1C568C /* Transaction.swift */,
+				4A229D667D14D6F3B0EC819A /* Money */,
+				8F67535C961FC28EB28C9657 /* Pantry */,
+				AE0F55A2C3BD3C81CED5CDA7 /* Purchase */,
+				4CFFA2C99E43843C7DD88542 /* Recipes */,
+				6F969D7B9CCAD7A9DD5F3EE3 /* SmartGrocery */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6F969D7B9CCAD7A9DD5F3EE3 /* SmartGrocery */ = {
+			isa = PBXGroup;
+			children = (
+				DBC6EED56BAED9CAE35406D1 /* PriceObservation.swift */,
+				D5860062EBC45ECAC77292E2 /* SmartGroceryExpenseModels.swift */,
+				27D205977D799EDF49263E12 /* SmartGroceryModels.swift */,
+				2DCFF2916ABD385AC1EB17A8 /* SmartGroceryPricingModels.swift */,
+				E9AD40F5F4CBBA26323DDFAF /* SmartGroceryVoiceModels.swift */,
+			);
+			path = SmartGrocery;
+			sourceTree = "<group>";
+		};
+		71C826330DA885A2828C8B46 /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				942B162740E1D9F679355790 /* RecipeMatcher.swift */,
+				CB5D43F24F3A3692ECF49F5A /* RecipeRepository.swift */,
+				3B525977A25FA42C911FC9E8 /* RecipeSeedLoader.swift */,
+				1E76650E370846367C4D759A /* RecipeService.swift */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		733918FCA6E71C73906EC952 /* Money */ = {
+			isa = PBXGroup;
+			children = (
+				8161A076932152F17F5C4736 /* MoneyRepository.swift */,
+			);
+			path = Money;
+			sourceTree = "<group>";
+		};
+		841DE3AB67FB6B41F4365B48 = {
+			isa = PBXGroup;
+			children = (
+				596415EF8622E0BC9D899832 /* Assets.xcassets */,
+				66B5BEA569189E3C66E8E1EF /* GoogleService-Info.plist */,
+				CCC41E3ACF6F07A3900E91E9 /* NeatNest */,
+				330CDF37146FE125B3CB7850 /* NeatNestTests */,
+				277F4C3A11677F00F780E7E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		843DA2AAB4B466C157C765C0 /* Money */ = {
+			isa = PBXGroup;
+			children = (
+				F0D4DBAD7D81102C857A9F22 /* MoneyHomeViewModel.swift */,
+			);
+			path = Money;
+			sourceTree = "<group>";
+		};
+		8F67535C961FC28EB28C9657 /* Pantry */ = {
+			isa = PBXGroup;
+			children = (
+				0755E0F57D9DE03069C5CCBB /* PackageSize.swift */,
+				6F14796266068147832B4ADE /* PantryItem.swift */,
+				32D560EDEAA043747DA58A7E /* PantryUnit.swift */,
+			);
+			path = Pantry;
+			sourceTree = "<group>";
+		};
+		92B5E982698D419FE296674A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B43099A751A3E888BB9BBDD0 /* AddTaskViewModel.swift */,
+				2677D3132934BA295E2F51D2 /* BudgetHomeViewModel.swift */,
+				843DA2AAB4B466C157C765C0 /* Money */,
+				DF105EF2EE6B7934C08DB895 /* Pantry */,
+				09D3563292D5B65668126DD7 /* Receipts */,
+				1535318BC3DA006CDFE4F026 /* Recipes */,
+				36BB6E78F42B9E1DA78601B5 /* SmartGrocery */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A8C4087FAD43023FD4835AEE /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				F37DB956429932639A0317C0 /* AddBudgetMonthView.swift */,
+				B88B0972C8917C14C1A9A1C9 /* AddTransactionView.swift */,
+				4F52C326788BFB1AAE74AE16 /* BudgetHomeView.swift */,
+				C4565B01386F9BE798C04195 /* BudgetListView.swift */,
+				8B3DF3E7059449FECB340672 /* CategoryManagementView.swift */,
+				3D3E2B241653A00B7D5F6159 /* CurrentMonthSummaryView.swift */,
+				AF7C6BD26C094380CEF2FDA2 /* MonthDetailView.swift */,
+				238C980CEC7D6797535BE825 /* TransactionsView.swift */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		AE0F55A2C3BD3C81CED5CDA7 /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				B43E1FE711E7D359FE0B8354 /* PurchaseSignal.swift */,
+			);
+			path = Purchase;
+			sourceTree = "<group>";
+		};
+		BCD276249967A75B5AF1B0AB /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				295BD5A111A320EC1CCB56FB /* AuthComponents.swift */,
+				F138A6AB21EACD50FB1CB041 /* CompleteProfileView.swift */,
+				78D632DD7E66C295770BD576 /* LoginView.swift */,
+				6CF4EFA37AB2351ED3144087 /* RegistrationView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		BDA773BCAFDE7AB11D82D3E2 /* Receipts */ = {
+			isa = PBXGroup;
+			children = (
+				1B0CD29A62544290ED5E2E11 /* ReceiptIntakeService.swift */,
+			);
+			path = Receipts;
+			sourceTree = "<group>";
+		};
+		C0F79B5614F25F833E2D07EE /* Pantry */ = {
+			isa = PBXGroup;
+			children = (
+				1A398722BB55FAE9A53D1E99 /* PantryComponents.swift */,
+				B5221BFB3543CEB6A9EFCD72 /* PantryHomeView.swift */,
+				294DC02A771784F83F65D4EA /* PantryImportReviewView.swift */,
+				2613F4B9E0E6E5B1F1606653 /* PantryItemEditorView.swift */,
+			);
+			path = Pantry;
+			sourceTree = "<group>";
+		};
+		C41086E01CDA3C907FBE971A /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				F4F477E0EB070CFB19C58DB8 /* RecipeComponents.swift */,
+				AB12AA08D5153EF1095AE2CD /* RecipeDetailView.swift */,
+				44328617E09591F12BD340DE /* RecipeHomeView.swift */,
+				FEEC8E8FA4AF22A2BE29E028 /* RecipeVariantEditorView.swift */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		C5348A07AF10D91820FE843D /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				F33A127F0CE207942BC1D486 /* PurchaseDetectionManager.swift */,
+				350F62B960AF2360790296B3 /* PurchaseNotificationHandler.swift */,
+				4882F9C5A659114D3E8AF961 /* PurchaseNotifier.swift */,
+				9D713AFE361553A426472757 /* PurchaseSignalCorrelator.swift */,
+				E8BA626424553017FAEAE356 /* PurchaseSignalStore.swift */,
+				4974B04E7B59EB3D8CDC20FE /* StoreProximityMonitor.swift */,
+			);
+			path = Purchase;
+			sourceTree = "<group>";
+		};
+		CCC41E3ACF6F07A3900E91E9 /* NeatNest */ = {
+			isa = PBXGroup;
+			children = (
+				E23EA0ABFE7F93A51BD53FA2 /* Info.plist */,
+				D8D26316192465FAD1DD3FAC /* NeatNest.entitlements */,
+				25EFD20D5756E70AC98CD0CC /* App */,
+				FD5C27A3335C5FC0B20045FA /* Managers */,
+				6865D60D7A8E11FDB68C6354 /* Models */,
+				09046C7666141A63AB4CE017 /* Resources */,
+				0FB4688A1B92839D3CCD3FDC /* Support */,
+				92B5E982698D419FE296674A /* ViewModels */,
+				607F39D860938A94C4B5FEA1 /* Views */,
+			);
+			path = NeatNest;
+			sourceTree = "<group>";
+		};
+		D77359894CFA581FDF00EFA1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				29C791ED8CD5B27029C9DED2 /* UserOverviewView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D89CF1538988B02DD5FCB979 /* Pricing */ = {
+			isa = PBXGroup;
+			children = (
+				1A24E2860951D4AAA77F664F /* PriceObservationAggregator.swift */,
+				E146FA0AF3672268937E5579 /* PriceObservationRepository.swift */,
+			);
+			path = Pricing;
+			sourceTree = "<group>";
+		};
+		DDE0F1794EB86D1EC8E8C1E5 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				F88BDF77FB08FD963C4B9411 /* AddTaskView.swift */,
+				2059943277397EBFC70C8EDD /* EditTaskView.swift */,
+				AD93FF96A235F2234F95F1FF /* HeaderView.swift */,
+				B06615AFDA76AC5E54165354 /* TaskCardView.swift */,
+				1D9B1E0B0F6250E154153FFA /* TaskPreviewView.swift */,
+				9F70746C59940D089232030D /* TasksView.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		DF105EF2EE6B7934C08DB895 /* Pantry */ = {
+			isa = PBXGroup;
+			children = (
+				468060CB398F1A35B07043F0 /* PantryHomeViewModel.swift */,
+				603060F7C9E25AD5D603D29D /* PantryImportViewModel.swift */,
+			);
+			path = Pantry;
+			sourceTree = "<group>";
+		};
+		EAB032677DCCB9D1A11D4F12 /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				3123B4345991707D5B966AED /* DettaglioListaView.swift */,
+				BF2E423E4CE44A4C4D651D65 /* ListaSpesaView.swift */,
+			);
+			path = Shopping;
+			sourceTree = "<group>";
+		};
+		FD5C27A3335C5FC0B20045FA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				71FBDDED99CAF5CC099ABC9B /* BudgetManager.swift */,
+				6C9A8733A33943C2D9274865 /* UserProfileManager.swift */,
+				733918FCA6E71C73906EC952 /* Money */,
+				22D3A99B25CB96102DAE3185 /* Pantry */,
+				D89CF1538988B02DD5FCB979 /* Pricing */,
+				C5348A07AF10D91820FE843D /* Purchase */,
+				BDA773BCAFDE7AB11D82D3E2 /* Receipts */,
+				71C826330DA885A2828C8B46 /* Recipes */,
+				2851C6AC807098165D8C94F1 /* SmartGrocery */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CF865ABE6052250D0837623 /* NeatNest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47AF906DACB3929971D3F60D /* Build configuration list for PBXNativeTarget "NeatNest" */;
+			buildPhases = (
+				56A26F756BE2BF16CBB998B8 /* Sources */,
+				0B412E8EE99567ABB66446B0 /* Resources */,
+				857BFA4D99E9EC329DD62982 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeatNest;
+			packageProductDependencies = (
+				DF6F70CCA5793DB2A1584C1F /* FirebaseCore */,
+				4D80E0C61B18B53C86FC06B7 /* FirebaseAuth */,
+				6B078331CAD932835A82540B /* FirebaseFirestore */,
+				86D77E0910A75B4E4DC5F730 /* FirebaseDatabase */,
+				89AC29F8AB90F5C352497E6F /* GoogleSignIn */,
+				6C5D23F86AC61169819CDB7C /* KeychainAccess */,
+			);
+			productName = NeatNest;
+			productReference = F4B25AEB5D5905B33A4109A8 /* NeatNest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4D23CCA899A63E7FD213916 /* NeatNestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188B629062EF14971BCBE1F2 /* Build configuration list for PBXNativeTarget "NeatNestTests" */;
+			buildPhases = (
+				343E2F417D71B60D6F068FB2 /* Sources */,
+				22F9AEC0F25BB4029E0D946F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5262D1B799114D7BBCB53070 /* PBXTargetDependency */,
+			);
+			name = NeatNestTests;
+			packageProductDependencies = (
+			);
+			productName = NeatNestTests;
+			productReference = 0875413EC404C5F2CA7BBB43 /* NeatNestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5C0C804DE7D85CC09454E29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2CF865ABE6052250D0837623 = {
+						DevelopmentTeam = 787YK9YUB3;
+						ProvisioningStyle = Automatic;
+					};
+					A4D23CCA899A63E7FD213916 = {
+						DevelopmentTeam = 787YK9YUB3;
+					};
+				};
+			};
+			buildConfigurationList = 9DCF4558249098CD6C544E2E /* Build configuration list for PBXProject "NeatNest" */;
+			developmentRegion = it;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				it,
+			);
+			mainGroup = 841DE3AB67FB6B41F4365B48;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E3B223CC6A2B0CEABBCF7839 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				5B1C3F911DFE3BD1526721B2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				DFC57451C35D3207DB0E3CA6 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 277F4C3A11677F00F780E7E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CF865ABE6052250D0837623 /* NeatNest */,
+				A4D23CCA899A63E7FD213916 /* NeatNestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B412E8EE99567ABB66446B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F63A995AE65ACEE75EEA6D /* Assets.xcassets in Resources */,
+				F54C4BAA257BCD4555816F2C /* GoogleService-Info.plist in Resources */,
+				1ECDDDAE470F526E5911CE12 /* Localizable.xcstrings in Resources */,
+				E6D4B1B8B1271D9623C49B4B /* Recipes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F9AEC0F25BB4029E0D946F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1739F0E6E6DEB63647E378E /* Recipes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		343E2F417D71B60D6F068FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDA875012F43FDD6736322F /* GroceryPhraseParserTests.swift in Sources */,
+				A7F773EECE6460FBA6B0E6E5 /* LocalizedContentTests.swift in Sources */,
+				5E2D3808C98869FAA1B0374F /* MoneyEntryTests.swift in Sources */,
+				CEF285A29ECA745F166DCE89 /* PackageSizeTests.swift in Sources */,
+				F8C54F50D85712CA0CEF3674 /* PantryIngestionTests.swift in Sources */,
+				F7A95671496C5FEB7823D1BB /* PantryItemTests.swift in Sources */,
+				0515524769099267B02C6693 /* PantryLevelTests.swift in Sources */,
+				4C63938A729AC4D62283D64B /* PantryQuantityTests.swift in Sources */,
+				B92EEF0FFF994EB4B8803A4B /* PriceObservationTests.swift in Sources */,
+				E19A786F915F2C40432B9F77 /* PurchaseSignalCorrelatorTests.swift in Sources */,
+				8FCE2A7BF4E7DD68C7A4C3FB /* ReceiptTextParserTests.swift in Sources */,
+				2CA8A00131FE8B63AE3F3A6A /* ReceiptTriageTests.swift in Sources */,
+				0A6EBBBBF91F2B7051F0B289 /* RecipeCatalogTests.swift in Sources */,
+				EF7F98442B698F07ABE29624 /* RecipeMatcherTests.swift in Sources */,
+				27DF6A0389B0029F60AF4386 /* RepurchasePredictorTests.swift in Sources */,
+				FF566488F67D815E4715EF10 /* ShelfLifeCatalogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56A26F756BE2BF16CBB998B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9322EB91B60F6959A1262E93 /* AddBudgetMonthView.swift in Sources */,
+				9DC2F80D993CD51513EC3007 /* AddTaskView.swift in Sources */,
+				1E5363C7E7A6D559154845AE /* AddTaskViewModel.swift in Sources */,
+				AC4D809164B4DB4436546A6B /* AddTransactionView.swift in Sources */,
+				EBDFCA08D2E3C519D31E0783 /* AppleSignInNonce.swift in Sources */,
+				5B812E83D2D9EA276525D110 /* AuthComponents.swift in Sources */,
+				55A26D25B421D774C72D3D06 /* AuthSupport.swift in Sources */,
+				07EC3B2EF587396BE8731C25 /* BudgetHomeView.swift in Sources */,
+				A1878664FD416CB3276FA428 /* BudgetHomeViewModel.swift in Sources */,
+				E3DB75BC29AC886EBEED32BC /* BudgetListView.swift in Sources */,
+				F65520CE720256E2FE50DA81 /* BudgetManager.swift in Sources */,
+				3463C791163BE25C29DFBCAA /* BudgetMonth.swift in Sources */,
+				40C82C594D87DBF17F8986AE /* Category.swift in Sources */,
+				EE56772C9C574F75D78E0234 /* CategoryManagementView.swift in Sources */,
+				3135F3BE2B058EA1E2C4ECA7 /* Color+Hex.swift in Sources */,
+				F38E0AEB66D25AA98AEF800C /* CompleteProfileView.swift in Sources */,
+				65E0A449C8F68C7BC3C05407 /* CompositeRetailerPricingProvider.swift in Sources */,
+				081D45B8B70830D6BDB7F76A /* CurrencyFormat.swift in Sources */,
+				E54A25F7FDEDF4E1C929F732 /* CurrentMonthSummaryView.swift in Sources */,
+				0238144B41A65F6D332A85EE /* DemoReceiptProvider.swift in Sources */,
+				F69859B603C262EC9220DEC2 /* DettaglioListaView.swift in Sources */,
+				CD132B315B3962BA4B0FA72B /* EditTaskView.swift in Sources */,
+				E42D6A9B80A0A61CFC224DBF /* FeaturePlaceholderView.swift in Sources */,
+				B1DB2E59D128570AD3E6E96D /* FirestoreRetailerPricingProvider.swift in Sources */,
+				949C2A0066B60126F33D90E1 /* GS1InfoView.swift in Sources */,
+				30C9032D58A2D07AD2D7ADBA /* GroceryCatalogMatcher.swift in Sources */,
+				08227E541EB5CB5452B6487C /* GroceryExpenseRepository.swift in Sources */,
+				40B0AE872786F7AFB1F1B11C /* GroceryIntelligentParser.swift in Sources */,
+				2A78B5B81DEB0F881E2418DE /* GroceryListDetailView.swift in Sources */,
+				EC36613714055CFCDC0D1870 /* GroceryListDetailViewModel.swift in Sources */,
+				7A59C46D582E1B3778EBFBBD /* GroceryListsView.swift in Sources */,
+				17C648BF0CF6888B98522ED3 /* GroceryListsViewModel.swift in Sources */,
+				4C98C9F7BF13A8629E63A49E /* GroceryPhraseParser.swift in Sources */,
+				458ABDBCD6DD503C12404CA7 /* HeaderView.swift in Sources */,
+				53C97B54FD53702611F786B3 /* HomeMenuItem.swift in Sources */,
+				A5A41F41A2D658EEE1639CD9 /* LetsShopPreferenceView.swift in Sources */,
+				1166323FBEBA589BC9C02D1B /* LetsShopPreferenceViewModel.swift in Sources */,
+				68BCD8A64350374765708253 /* LetsShopResultsView.swift in Sources */,
+				09A878263FE57F77E18AABE7 /* LetsShopService.swift in Sources */,
+				A26F0F173458E666F87408B4 /* ListaSpesaView.swift in Sources */,
+				DA7F8C9A9A9A9B5058B97171 /* LocalizedContent.swift in Sources */,
+				FCF2699AF716A3DDB3F246AA /* LoginView.swift in Sources */,
+				651CB466968730BD976EB322 /* MainMenuView.swift in Sources */,
+				8817065EAE1029A63306B8C0 /* MoneyEntry.swift in Sources */,
+				23C85F0052835A814D28796B /* MoneyEntryEditorView.swift in Sources */,
+				F175FDF103D9E6C1C3C8FF00 /* MoneyHomeView.swift in Sources */,
+				CBA1399194557190199EE729 /* MoneyHomeViewModel.swift in Sources */,
+				F148645B350C60B06A067D98 /* MoneyRepository.swift in Sources */,
+				540E12A4D5DE74B8BB877BFD /* MonthDetailView.swift in Sources */,
+				97FDE369BAC4068E4921F627 /* NeatNestApp.swift in Sources */,
+				E0D0BBC5869C91106C74BD74 /* PackageSize.swift in Sources */,
+				E8D29DF542E43E41A501C637 /* PantryComponents.swift in Sources */,
+				AF7306F795293A11D7963076 /* PantryHomeView.swift in Sources */,
+				E563507B3B5765899F8D8261 /* PantryHomeViewModel.swift in Sources */,
+				CBA9A9667D39762357EBEA61 /* PantryImportReviewView.swift in Sources */,
+				09154517BE68C43C8E4EDF54 /* PantryImportViewModel.swift in Sources */,
+				209A725034EDC2D3FC7C8FBE /* PantryItem.swift in Sources */,
+				08A268458EA20A77FB132F6D /* PantryItemEditorView.swift in Sources */,
+				66C0E5AEF684B594D90C2939 /* PantryRepository.swift in Sources */,
+				2EEF8A6AF7172FE230937662 /* PantryService.swift in Sources */,
+				46D1A76BEF22E8257DF4EAC1 /* PantryUnit.swift in Sources */,
+				E50D22649E4E29DB293965A3 /* PendingUserProfile.swift in Sources */,
+				EA938290C38DFC74484098E2 /* PreviewSupport.swift in Sources */,
+				E2E5C2E17C29FEB032835802 /* PriceCompareView.swift in Sources */,
+				BB1992B61838105CF4BFD774 /* PriceObservation.swift in Sources */,
+				DE6EF76AAC62836633F8C29D /* PriceObservationAggregator.swift in Sources */,
+				4F3963A4FDC75CBE6C10C953 /* PriceObservationRepository.swift in Sources */,
+				D914F83D3E999BB9ECB455D7 /* PurchaseAppIntents.swift in Sources */,
+				E1F637FEFF229DD0AA6173F2 /* PurchaseDetectionManager.swift in Sources */,
+				E7DB2CADB383ACA8649EC8E2 /* PurchaseDetectionSetupView.swift in Sources */,
+				B329C32C8F819A95267E9D5E /* PurchaseNotificationHandler.swift in Sources */,
+				CCA8E1BD15B3DC3BDB11E4A3 /* PurchaseNotifier.swift in Sources */,
+				7AAA194709E670E54BC6630E /* PurchaseSignal.swift in Sources */,
+				C70EE25222495283E405ACC8 /* PurchaseSignalCorrelator.swift in Sources */,
+				D08ECDA191CB871A7460EAFE /* PurchaseSignalStore.swift in Sources */,
+				D93237344A840CB31E282441 /* QuickAddView.swift in Sources */,
+				DE21636EDA1FEACCDD419741 /* ReceiptCategoryInferrer.swift in Sources */,
+				7FAA30E5427790040230E2CF /* ReceiptImportService.swift in Sources */,
+				74E5C8DA9CBCA8ACEE70E4B1 /* ReceiptIntakeService.swift in Sources */,
+				5A7A7FB0814E7F980EE35F79 /* ReceiptScanHomeView.swift in Sources */,
+				4148FF7DBFC7B460772C69DB /* ReceiptScanViewModel.swift in Sources */,
+				31EAFF39BFF3A3B8FD7D941C /* ReceiptScanner.swift in Sources */,
+				836845BD28B00DD52935A58D /* ReceiptScannerView.swift in Sources */,
+				5337ADCD2E69382342F0ED43 /* ReceiptTextParser.swift in Sources */,
+				732F7AC8342D36145E6A6E19 /* ReceiptTriage.swift in Sources */,
+				B1CE3DDBCBDF17A6C1D07159 /* RecipeComponents.swift in Sources */,
+				31F74202AA002C9D46DA5CF0 /* RecipeDetailView.swift in Sources */,
+				CE91284DBD13378D2A80E8CA /* RecipeHomeView.swift in Sources */,
+				8575B41677599A00B6D264F4 /* RecipeHomeViewModel.swift in Sources */,
+				F59C46618A945B4A9752492A /* RecipeMatcher.swift in Sources */,
+				D677E3A61E04C282A8E62049 /* RecipeModels.swift in Sources */,
+				106B31BE2D2C3A2E86BCCD63 /* RecipeRepository.swift in Sources */,
+				A9703C0B5857A3ED7D2E16DC /* RecipeSeedLoader.swift in Sources */,
+				AABA5294B6F83E5F70567249 /* RecipeService.swift in Sources */,
+				F93E697661FB04FCBEA5A980 /* RecipeVariantEditorView.swift in Sources */,
+				25AC2BF3F987FC37B95C6DED /* RegistrationView.swift in Sources */,
+				ABBD1EE1BEEDBD6C51F40DDA /* RepurchasePredictor.swift in Sources */,
+				28F45964F0711E798372D316 /* RetailerPricingProvider.swift in Sources */,
+				62EDE3ADF08F890987F55672 /* SeededDemoReceiptProvider.swift in Sources */,
+				DF069600A4C502D6B16A2AFD /* SeededProductCatalog.swift in Sources */,
+				04C11BA82D6358B093853E7D /* SeededRetailerPricingProvider.swift in Sources */,
+				38E1B5727A5C8ED5F4AD49AE /* ShelfLifeCatalog.swift in Sources */,
+				89D20EEBEE081FDB3E1CC1FE /* ShoppingModels.swift in Sources */,
+				540DBBA17D8AD23A2B528664 /* ShoppingRecommendationEngine.swift in Sources */,
+				044D7E9D26FA79F1B7F6F897 /* SmartGroceryAppIntents.swift in Sources */,
+				0E0FA37F49BFC08FB374E436 /* SmartGroceryComponents.swift in Sources */,
+				851FDC156C4EB2C620A93675 /* SmartGroceryExpenseModels.swift in Sources */,
+				55A09F36EC0F27C09C0F45D0 /* SmartGroceryFlowPreview.swift in Sources */,
+				6393839B1A841DD71940BE41 /* SmartGroceryHomeView.swift in Sources */,
+				C739EC9C95FAE587880144F0 /* SmartGroceryHomeViewModel.swift in Sources */,
+				D7878A9AC369C347BA9D6A42 /* SmartGroceryModels.swift in Sources */,
+				73CDE3903AB185213F837966 /* SmartGroceryPricingModels.swift in Sources */,
+				5DD66137CCCC33DA969A8B50 /* SmartGroceryRepository.swift in Sources */,
+				D61C4544060CB8B25AD04953 /* SmartGroceryService.swift in Sources */,
+				A5CD81647DC6E1CDE301708D /* SmartGrocerySettingsView.swift in Sources */,
+				620E7AE2D252B3E26DAC2E21 /* SmartGrocerySpendingView.swift in Sources */,
+				F585B0C2C54863CC515D4336 /* SmartGrocerySpendingViewModel.swift in Sources */,
+				CFDC7C135C8D9CB1B3A35EAE /* SmartGroceryVoiceAssistantView.swift in Sources */,
+				876F26072B412054588C4CEB /* SmartGroceryVoiceManager.swift in Sources */,
+				8BD8F528CDD488F8A028EAEA /* SmartGroceryVoiceModels.swift in Sources */,
+				56EF8A2164D3E3121B2A7C33 /* SmartGroceryVoiceRequestStore.swift in Sources */,
+				241A8E930EBEF34935256FE8 /* StoreMapView.swift in Sources */,
+				291D76C63C1256095CD08281 /* StoreProximityMonitor.swift in Sources */,
+				3A2035939225690FFC83E0D5 /* Task.swift in Sources */,
+				C2988624D2501086CDD46FE2 /* TaskCardView.swift in Sources */,
+				A7D445B00FFFC1E58C24EB26 /* TaskPreviewView.swift in Sources */,
+				CE8D7F5B24DDCCDC4D960B45 /* TasksView.swift in Sources */,
+				E5D9667EAD6DE542B6338B6F /* Transaction.swift in Sources */,
+				E8A6886B67021AD21A4DC263 /* TransactionsView.swift in Sources */,
+				EFBB59AFEF223B088A1D230E /* UIApplication+TopViewController.swift in Sources */,
+				2A1D75504650799A73B8ECE0 /* UserOverviewView.swift in Sources */,
+				91D6346356C2FAF2359C7252 /* UserProfileManager.swift in Sources */,
+				CB9812FB4E7E4D42E6F75172 /* UserSession.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5262D1B799114D7BBCB53070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CF865ABE6052250D0837623 /* NeatNest */;
+			targetProxy = 6227B14008F3C4BA6276A2D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0298C3EA91ED94248B1EC7F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 787YK9YUB3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.NeatNestTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeatNest.app/NeatNest";
+			};
+			name = Release;
+		};
+		29F20D3733DDDC748DDC1AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NeatNest/NeatNest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 787YK9YUB3;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NeatNest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited) -ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.NeatNest;
+				PRODUCT_NAME = NeatNest;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FEAE3A6E9316973F5C2BA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		823A4BEA446815F3BE929BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 787YK9YUB3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.NeatNestTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeatNest.app/NeatNest";
+			};
+			name = Debug;
+		};
+		CD1FA2D60FF8B02BDCE20A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NeatNest/NeatNest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 787YK9YUB3;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NeatNest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited) -ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.NeatNest;
+				PRODUCT_NAME = NeatNest;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA94482AFCE38FCCBCA038C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188B629062EF14971BCBE1F2 /* Build configuration list for PBXNativeTarget "NeatNestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823A4BEA446815F3BE929BB3 /* Debug */,
+				0298C3EA91ED94248B1EC7F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		47AF906DACB3929971D3F60D /* Build configuration list for PBXNativeTarget "NeatNest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F20D3733DDDC748DDC1AB7 /* Debug */,
+				CD1FA2D60FF8B02BDCE20A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9DCF4558249098CD6C544E2E /* Build configuration list for PBXProject "NeatNest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA94482AFCE38FCCBCA038C2 /* Debug */,
+				2FEAE3A6E9316973F5C2BA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5B1C3F911DFE3BD1526721B2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		DFC57451C35D3207DB0E3CA6 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.2;
+			};
+		};
+		E3B223CC6A2B0CEABBCF7839 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D80E0C61B18B53C86FC06B7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3B223CC6A2B0CEABBCF7839 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		6B078331CAD932835A82540B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3B223CC6A2B0CEABBCF7839 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		6C5D23F86AC61169819CDB7C /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DFC57451C35D3207DB0E3CA6 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		86D77E0910A75B4E4DC5F730 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3B223CC6A2B0CEABBCF7839 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		89AC29F8AB90F5C352497E6F /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B1C3F911DFE3BD1526721B2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		DF6F70CCA5793DB2A1584C1F /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3B223CC6A2B0CEABBCF7839 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E5C0C804DE7D85CC09454E29 /* Project object */;
+}

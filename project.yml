@@ -1,0 +1,87 @@
+name: NeatNest
+options:
+  bundleIdPrefix: com.ios
+  developmentLanguage: it
+  deploymentTarget:
+    iOS: "17.0"
+packages:
+  Firebase:
+    url: https://github.com/firebase/firebase-ios-sdk.git
+    from: 11.10.0
+  GoogleSignIn:
+    url: https://github.com/google/GoogleSignIn-iOS
+    from: 9.0.0
+  KeychainAccess:
+    url: https://github.com/kishikawakatsumi/KeychainAccess.git
+    from: 4.2.2
+targets:
+  NeatNest:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: NeatNest
+      - path: Assets.xcassets
+        buildPhase: resources
+      - path: GoogleService-Info.plist
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ios.NeatNest
+        PRODUCT_NAME: NeatNest
+        SWIFT_VERSION: 5.0
+        SWIFT_EMIT_LOC_STRINGS: YES
+        DEVELOPMENT_TEAM: 787YK9YUB3
+        MARKETING_VERSION: 1.0
+        CURRENT_PROJECT_VERSION: 10
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SUPPORTS_MACCATALYST: NO
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: NeatNest/Info.plist
+        CODE_SIGN_ENTITLEMENTS: NeatNest/NeatNest.entitlements
+        OTHER_LDFLAGS: "$(inherited) -ObjC"
+        CODE_SIGN_STYLE: Automatic
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    dependencies:
+      - package: Firebase
+        product: FirebaseCore
+      - package: Firebase
+        product: FirebaseAuth
+      - package: Firebase
+        product: FirebaseFirestore
+      - package: Firebase
+        product: FirebaseDatabase
+      - package: GoogleSignIn
+        product: GoogleSignIn
+      - package: KeychainAccess
+        product: KeychainAccess
+  NeatNestTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: NeatNestTests
+      - path: NeatNest/Resources/Recipes.json
+        buildPhase: resources
+    dependencies:
+      - target: NeatNest
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ios.NeatNestTests
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_VERSION: 5.0
+        DEVELOPMENT_TEAM: 787YK9YUB3
+schemes:
+  NeatNest:
+    build:
+      targets:
+        NeatNest: all
+        NeatNestTests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - NeatNestTests
+    archive:
+      config: Release
